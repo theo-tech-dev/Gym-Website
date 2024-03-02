@@ -1,0 +1,71 @@
+<!-- FILEPATH: /c:/Users/CK/Documents/Code/Gym_HTML/GymWebsite.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gym Website</title>
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    </head>
+    <body>
+        <!-- Navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#signin">Sign In</a></li>
+                <li><a href="#signout">Sign Out</a></li>
+            </ul>
+        </nav>
+        <!-- Banner image -->
+        <img src="C:\Users\CK\Pictures\CSS Pics\Fitness-Guy-1.jpeg" alt="Fitness Bro">
+
+        <!-- About page -->
+        <section id="about">
+            <h1>About Us</h1>
+            <p>Welcome to our gym! We offer a variety of fitness classes and equipment to help you achieve your fitness goals.</p>
+        </section>
+
+        <!-- Sign-up page -->
+        <section id="signup">
+            <h1>Sign Up</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="interest">Interest:</label>
+                <select id="interest" name="interest">
+                    <option value="weightlifting">Weightlifting</option>
+                    <option value="cardio">Cardio</option>
+                    <option value="yoga">Yoga</option>
+                    <option value="pilates">Pilates</option>
+                </select><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <!-- Sign-in page -->
+        <section id="signin">
+            <h1>Sign In</h1>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br>
+
+                <input type="submit" value="Sign In">
+            </form>
+
+            <p>Don't have an account? <a href="#signup">Sign up</a> here.</p>
+            <p>Forgot your password? <a href="#reset">Reset</a> it here.</p>
+        </section>
+
+        <!-- Sign-out page -->
+        <section id="signout">
+            <h1>Sign Out</h1>
+            <p>You have been signed out.</p>
+        </section>
+    </body>
+</html>
